@@ -16,3 +16,7 @@ class Mahsulot(models.Model):
 
     def __str__(self):
         return self.nom
+
+class Media(models.Model):
+    rasm = models.FileField()
+    mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
