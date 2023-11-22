@@ -14,5 +14,5 @@ class Mahsulot(models.Model):
     bolim = models.ForeignKey(Bolim, on_delete=models.CASCADE)
     batafsil = models.CharField(max_length=30, blank=True, null=True)
 
-    def str(self):
+    def __str__(self):
         return self.nom
