@@ -22,5 +22,16 @@ class Media(models.Model):
     mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
 
 class Izoh(models.Model):
-    pass
+    matn = models.CharField(max_length=30)
+    sana = models.DateTimeField(null=True, blank=True)
+    baho = models.PositiveSmallIntegerField()
+
+    def __str__(self):
+        return self.matn
+
+# Localda abdulhamid branchida o'zgarish qildim.
+# add va commit qildim
+# git fetch origin
+# git rebase origin/master
+# git push origin abdulhamid
 
