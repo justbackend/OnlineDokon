@@ -20,3 +20,7 @@ class Mahsulot(models.Model):
 class Media(models.Model):
     rasm = models.FileField()
     mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
+
+class Izoh(models.Model):
+    pass
+
