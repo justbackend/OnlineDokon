@@ -1,5 +1,4 @@
 from django.db import models
-from userapp.models import Account
 
 class Bolim(models.Model):
     nom=models.CharField(max_length=100)
@@ -24,3 +23,4 @@ class Media(models.Model):
 
 class Izoh(models.Model):
     pass
+
