@@ -23,11 +23,4 @@ class Media(models.Model):
     mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
 
 class Izoh(models.Model):
-    matn = models.TextField()
-    sana = models.DateTimeField(null=True, blank=True)
-    account = models.ForeignKey(Account, on_delete=models.CASCADE)
-    mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
-    baho = models.PositiveSmallIntegerField()
-
-    def __str__(self):
-        return self.matn
+    pass
