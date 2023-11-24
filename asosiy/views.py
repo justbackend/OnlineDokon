@@ -39,3 +39,11 @@ class MediaAPIView(APIView):
         media = Media.objects.filter(mahsulot=product)
         serializer = MediaSerializers(media, many=True)
         return Response(serializer.data)
+
+
+class IzohAPIView(APIView):
+    def get(self, pk, request):
+        product = Mahsulot.objects.get(id=pk)
+        izoh = Izoh.objects.filter(mahsulot=product)
+        serializer = IzohSerializer(izoh, many=True)
+        return Response(serializer.data)
