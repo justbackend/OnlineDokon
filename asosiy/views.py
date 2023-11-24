@@ -21,3 +21,14 @@ class MahsulotGetApi(APIView):
         model = Mahsulot.objects.filter(nom__contains=pk)
         serializer = MaxsulotSerializers(model, many=True)
         return Response(serializer.data)
+
+
+from rest_framework.viewsets import ModelViewSet
+
+from .models import *
+from .serializers import *
+
+class MahsulotModelViewSet(ModelViewSet):
+    queryset = Mahsulot.objects.all()
+    serializer_class = MaxsulotSerializers
+

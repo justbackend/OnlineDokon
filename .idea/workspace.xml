@@ -4,28 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5e46b666-9fcb-4029-b361-16ff28d6d3e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineDokon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineDokon/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asosiy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/asosiy/views.py" afterDir="false" />
+=======
+    <list default="true" id="eb5201d8-492a-4786-a5d7-81fe96f7654d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> cfa62ad (4-vazifa bajarildi)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2YRKvfPccJOv3twVnAyL5QTNi2d" />
+  <component name="ProjectId" id="2YcMd54IqjiipRIeHkPcJNvFWUt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "abdulhamid",
     "node.js.selected.package.tslint": "(autodetect)"
   }
@@ -66,26 +67,20 @@
       <method v="2" />
     </configuration>
   </component>
+=======
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+>>>>>>> cfa62ad (4-vazifa bajarildi)
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5e46b666-9fcb-4029-b361-16ff28d6d3e4" name="Changes" comment="" />
-      <created>1700483183889</created>
+      <changelist id="eb5201d8-492a-4786-a5d7-81fe96f7654d" name="Changes" comment="" />
+      <created>1700820498736</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700483183889</updated>
+      <updated>1700820498736</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
