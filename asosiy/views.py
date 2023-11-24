@@ -24,6 +24,7 @@ class MahsulotGetApi(APIView):
 
 
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.views import APIView
 
 from .models import *
 from .serializers import *
@@ -32,3 +33,9 @@ class MahsulotModelViewSet(ModelViewSet):
     queryset = Mahsulot.objects.all()
     serializer_class = MaxsulotSerializers
 
+class MediaAPIView(APIView):
+    def get(self, pk, request):
+        product = Mahsulot.objects.get(id=pk)
+        media = Media.objects.filter(mahsulot=product)
+        serializer = MediaSerializers(media, many=True)
+        return Response(serializer.data)
