@@ -9,4 +9,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('mahsulot_qidiruv', MahsulotQidiruvApi.as_view()),
     path('mahsulot/<str:pk>/', MahsulotGetApi.as_view()),
+    path('mahsulot/<int:pk>/media', MahsulotGetApi.as_view()),
+    path('mahsulot/<int:pk>/mahsulot', MahsulotGetApi.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
