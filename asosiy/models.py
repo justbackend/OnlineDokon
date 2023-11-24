@@ -1,4 +1,5 @@
 from django.db import models
+from userapp.models import Account
 
 class Bolim(models.Model):
     nom=models.CharField(max_length=100)
@@ -20,3 +21,13 @@ class Mahsulot(models.Model):
 class Media(models.Model):
     rasm = models.FileField()
     mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
+
+class Izoh(models.Model):
+    matn = models.TextField()
+    sana = models.DateTimeField(null=True, blank=True)
+    account = models.ForeignKey(Account, on_delete=models.CASCADE)
+    mahsulot = models.ForeignKey(Mahsulot, on_delete=models.CASCADE)
+    baho = models.PositiveSmallIntegerField()
+
+    def __str__(self):
+        return self.matn
