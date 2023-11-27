@@ -29,9 +29,12 @@ class Izoh(models.Model):
     def __str__(self):
         return self.matn
 
-# Localda abdulhamid branchida o'zgarish qildim.
-# add va commit qildim
-# git fetch origin
-# git rebase origin/master
-# git push origin abdulhamid
+# 1. Localda abdulhamid branchida o'zgarish qildim.
+# 2. add va commit qildim
+# 3. git fetch origin
+# 4. git rebase origin/master
+# Mabodo rebase o'xshamasa, conflictlarni(kelishmovchiliklarni)
+# to'g'rilash kerak. Keyin:
+#   git add ., git commit, git rebase --continue
+# 5. git push origin abdulhamid
 
