@@ -1,8 +1,13 @@
 from pathlib import Path
+import environ
 
+env = environ.Env()
+environ.Env.read_env()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+GMAILIM = env("GMAIL")
+P = env("PAROL")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -14,6 +19,7 @@ SECRET_KEY = 'django-insecure-z*c(or+dk$j-gn-_6yok%j)$h@rv@(8cfg*)t)3w7k-4l8zp41
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
 
 
 # Application definition
